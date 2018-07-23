@@ -366,7 +366,8 @@ function CriteoHtb(configs) {
                 criteoSlots,
                 demandSuccess,
                 demandError,
-                demandTimeout);
+                demandTimeout,
+                configs.timeout);
 
             /* __requestTimeouts is also used as a flag to check if the callbacks have been called, so it has
                to be set or the callbacks will refuse to fire */
